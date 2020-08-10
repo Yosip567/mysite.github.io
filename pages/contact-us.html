@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title>Контакты | ProCars</title>
+
+  <!-- core CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Gelasio|Oswald|Righteous&display=swap" rel="stylesheet">
+  <link href="../img/awesome/css/all.css" rel="stylesheet">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/animate.min.css" rel="stylesheet">
+  <link href="../css/main.css" rel="stylesheet">
+  <link href="../css/responsive.css" rel="stylesheet">
+  <link href="../css/intlTelInput.css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="../img/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="../img/ico/apple-touch-icon-57-precomposed.png">
+  
+  <script src="../js/jquery.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+  <header id="header">
+    <div class="top-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-xs-12">
+            <div class="top-number">
+              <a href="email:info.procarsbcn.com"><i class="far fa-envelope"></i> info.procarsbcn.com</a>
+              <a href="tel:34632405117"><i class="fa fa-phone-square"></i> +34 632-40-51-17</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Главная</a></li>
+            <li class="dropdown">
+              <a href="../pages/rentcars.html" class="dropdown-toggle" data-toggle="dropdown">Услуги <i class="fa fa-angle-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="../pages/rentcars.html">Аренда авто</a></li>
+                <li><a href="../pages/transfer.html">Трансфер | Такси</a></li>
+                <li><a href="../pages/excursions.html">Екскурсии в Барселоне</a></li>
+              </ul>
+            </li>
+            <li><a href="../pages/about-us.html">О нас</a></li>
+            <li class="active"><a href="../pages/contact-us.html">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="page-title" style="background-image: url(../img/work-table.jpg)">
+    <h1>Контакты</h1>
+  </div>
+
+  <section id="contact-page">
+    <div class="container">
+      <div class="row contact-wrap"> 
+        <div class="status alert alert-success" style="display: none"></div>
+        <div class="col-sm-0 col-md-1"></div>
+        <div class="col-sm-7 col-md-5 form-info">
+        <form class="contact-form" name="contact-form" autocomplete="off" method="post" action="../mail/mail_contacts.php">
+
+          <h2>Оставте свою заявку</h2>
+          <p class="form-description">Оставьте свою заявку и наш менеджер свяжется с Вами в течении 15 минут</p>
+
+          <div class="form-group">
+            <label>Ваше имя *</label>
+            <input placeholder="Введите ваше имя" type="text" name="user_name" class="form-control" required="required">
+          </div>
+
+          <div class="form-group">
+            <label>Ваш телефон *</label>
+            <input pattern="[+ 0-9]{7,20}" id="phone" name="user_phone" type="tel" class="form-control" required="required">
+          </div>
+
+          <div class="form-group">
+          <label>Предпочтительный вид связи</label>
+            <select name="user_option" class="form-control"> 
+              <option value="none" selected="selected">&nbsp;</option>
+              <option value="Whatshapp">Whatshapp</option>
+              <option value="Viber">Viber</option>
+              <option value="Telegram">Telegram</option>
+              <option value="Call">Дзвонок</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Ваше сообщение</label>
+            <textarea placeholder="Введите ваше сообщение"name="user_message" id="message" class="form-control" rows="8"></textarea>
+          </div>
+
+          <div class="form-group btn2-group">
+            <button type="submit" name="submit" class="btn btn-primary btn-lg">Отправить</button>
+          </div>
+
+        </form>
+        </div>
+        <div class="col-sm-0 col-md-1"></div>
+        <div class="col-sm-5 contact-info">
+          <h2>Свяжытесь с нами</h2>
+          <p class="form-description">Свяжытесь с нами и получите бесплатную поддержку и консультацыю</p>
+          <h3>Телефон:</h3>
+          <p><a style="color: inherit;" class="tel" href="tel:34632405117">+34 632-40-51-17</a></p>
+          <a href="https://t.me/jetcarsbcn"><i class="fab fa-telegram-plane"></i></a>
+          <a href="viber://chat?number=%2B34632405117"><i class="fab fa-viber"></i></a>
+          <a href="https://wa.me/34632405117"><i class="fab fa-whatsapp"></i></a>
+          <h3>Электронная почта:</h3>
+          <p><a style="color: inherit;" class="email" href="email:info.procarsbcn.com">info.procarsbcn.com</a></p>
+          <h3>Мы открыты:</h3>
+          <p>Круглосуточно</p>  
+        </div>
+      </div><!--/.row-->
+    </div><!--/.container-->
+  </section><!--/#contact-page-->
+
+  <section id="bottom">
+    <div class="container fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+      <div class="row">
+        <div class="col-md-3 col-xs-6">
+          <div class="widget">
+            <a href="../index.html" class="footer-logo">
+              <img src="../img/logo.png" alt="ProCars">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="widget">
+            <h3>PROCARS BARCELONA</h3>
+            <ul>
+              <li><a href="../pages/contact-us.html">Контакты</a></li>
+              <li><a href="../pages/about-us.html">О компании</a></li>
+              <li><a href="#">Правила аренды</a></li>
+              <li><a href="#">Вопросы и ответы</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="widget">
+            <h3>УСЛУГИ</h3>
+            <ul>
+              <li><a href="../pages/rentcars.html">Аренда автомобилей</a></li>
+              <li><a href="../pages/transfer.html">Трансфер из аэропорта</a></li>
+              <li><a href="../pages/transfer.html">Такси в Барселоне</a></li>
+              <li><a href="../pages/excursions.html">Экскурсии</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="widget">
+            <h3>КОНТАКТЫ</h3>
+            <ul>
+              <a class="email" href="email:info.procarsbcn.com">info.procarsbcn.com</a>
+              <a class="tel" href="tel:34632405117">+34 632-40-51-17</a>
+              <a href="https://wa.me/34632405117"><i class="fab fa-whatsapp"></i></a>
+              <a href="viber://chat?number=%2B34632405117"><i class="fab fa-viber"></i></a>
+              <a href="https://t.me/jetcarsbcn"><i class="fab fa-telegram-plane"></i></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="midnight-blue">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          &copy; 2020 <a href="#">ProCars Barcelona</a>
+        </div>
+        <div class="col-sm-6">
+          <ul class="pull-right">
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="../pages/rentcars.html">Услуги</a></li>
+            <li><a href="../pages/about-us.html">О нас</a></li>
+            <li><a href="../pages/contact-us.html">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/intlTelInput.js"></script>
+  <script src="../js/main.js"></script>
+
+</body>
+</html>
