@@ -1,0 +1,378 @@
+/* lg */ 
+@media (min-width: 1200px) {
+ /* Make Navigation Toggle on Desktop Hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    -webkit-animation: fadeInUp 400ms;
+    animation: fadeInUp 400ms;
+  }
+  #contact-page .contact-form .contact-info, #contact-page .contact-form .form-info {
+    padding: 0 100px;
+  }
+}
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+ /* Make Navigation Toggle on Desktop Hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    -webkit-animation: fadeInUp 400ms;
+    animation: fadeInUp 400ms;
+  }
+  .navbar-nav > li {
+    margin-left: 20px;
+  }
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .services-wrap {
+    padding: 40px 20px 40px 20px;
+  }
+  .tab-wrap .media .parrent.pull-left{
+    clear: both;
+    width: 100%;
+  }
+  .tab-wrap .media .parrent.media-body{
+    clear: both;
+  }
+  #tel-container .tel-form {
+    width: 57%;
+  }
+  #contact-page .contact-form .contact-info, #contact-page .contact-form .form-info {
+    padding: 0 50px;
+  }
+  #rentcars .single-slide button {
+    font-size: 16px;
+  }
+  .content-column button {
+    font-size: 17px;
+  }
+}
+
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Make Navigation Toggle on Desktop Hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    -webkit-animation: fadeInUp 400ms;
+    animation: fadeInUp 400ms;
+  }
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .navbar-nav > li {
+    margin-left: 15px;
+  }
+  .main-background h1 {
+    font-size: 50px;
+  }
+  .main-background p {
+    font-size: 17px;
+  }
+  .tab-wrap .media .parrent.pull-left, 
+  .media.accordion-inner .pull-left{
+    clear: both;
+    width: 100%;
+  }
+  .tab-wrap .media .parrent.media-body, 
+  .media.accordion-inner .media-body{
+    clear: both;
+  }
+  .services-wrap {
+    padding: 40px 30px 40px;
+  }
+  #tel-container .tel-form {
+    width: 100%;
+    padding: 17%;
+  }
+  #tel-container .tel-form .form-group {
+    width: 50%;
+  }
+  .tz-gallery .lightbox img {
+    height: 210px;
+  }
+  #excursions .content-column {
+    width: 47.5%;
+  }
+  #rentcars .single-slide {
+    width: 47.5%;
+  }
+}
+
+@media(min-width: 992px){
+  .tz-gallery .last-galery {
+    display: none;
+  }
+  .tz-gallery .lightbox img {
+    height: 250px !important;
+  }
+  #tel-container .tel-content {
+    margin: auto;
+    padding: 70px 0;
+    max-width: 500px;
+  }
+  #rentcars .single-slide, #excursions .single-slide {
+    width: 30.83%;
+  }
+}
+/* xs */
+@media (max-width: 767px) {
+  .navbar-nav>li{
+    display: block;
+    margin: 0;
+  }
+  .navbar-inverse .navbar-nav>li>a{
+    display: block;
+  }
+  .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus{
+    background-color: transparent;
+  }
+  .navbar-inverse .navbar-brand{
+    margin-bottom: 10px;
+  }
+  .top-number{
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .container > .navbar-header, .container > .navbar-collapse{
+    margin-left: 0;
+  }
+  .top-number{
+    font-size: 14px;
+  }
+  .navbar-nav > li {
+    padding-bottom: 0;
+  }
+  .main-background h1 {
+    font-size: 44px;
+  }
+  .main-background p {
+    font-size: 16px;
+  }
+  .media.accordion-inner .pull-left, 
+  .media.accordion-inner .media-body{
+    clear: both;
+  }
+  .accordion-inner h4 {
+    margin-top: 10px;
+  }
+  .tab-wrap .media .pull-left{
+    clear: both;
+    width: 100%;
+  }
+  .tab-wrap .media .media-body{
+    clear: both;
+  }
+  .nav-tabs > li.active > a:after{
+    display: none;
+  }
+  #footer .col-sm-6{
+    text-align:center;
+  }
+  #footer .pull-right{
+    float: none !important;
+  }
+  #main-slider .carousel .item{
+    height: 600px;
+  }
+  .footer-logo{
+    margin-bottom: 30px;
+  }
+  #tel-container .tel-form {
+    width: 100%;
+    padding: 10%;
+  }
+  #contact-page .contact-info, #contact-page .form-info {
+    padding: 0 30px;
+  }
+  #rentcars .single-slide {
+    display: inline-block;
+  }
+  #rentcars .slide-img, #rentcars .content {
+    display: block;
+    width: 45%;
+    text-align: center;
+  }
+  #rentcars .slide-img {
+    float: left;
+    line-height: 190px;
+  }
+  #rentcars .content {
+    float: right;
+  }
+  .content-column .content {
+    padding: 30px 23px 30px;
+  }
+  #contact-page .contact-info {
+    margin-top: 200px;
+  }
+  #contact-page .btn2-group {
+    text-align: center;
+  }
+  #contact-page .form-group button {
+    width: 90%;
+  }
+  .thanks-content {
+    padding: 225px 15px 0 15px;
+  }
+  .dn-767 {
+    display: none;
+  }
+  #services .services-wrap a {
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+  }
+}
+@media (min-width: 662px) {
+  .transfer-form .form-group {
+    background: #fff;
+    border-radius: 7px;
+    margin-bottom: 20px !important;
+  }
+  .transfer-form .form-group:nth-child(3) {
+    border-radius: 7px 0 0 7px;
+  }
+}
+@media (max-width: 662px) {
+  #rentcars .slide-img, #rentcars .content {
+      display: block;
+      width: 100%;
+  }
+  #rentcars .slide-img img {
+      height: 190px;
+  }
+  .content-column .content {
+    padding: 0 30px 45px !important;
+  }
+  .main-background .btn-slide {
+    width: 70%;
+  }
+  .transfer-form .form-group {
+    width: 100%;
+    background: #fff;
+    border-radius: 7px !important;
+    margin-bottom: 15px !important;
+  }
+  .about-content{
+    margin: 20px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 557px) {
+  #tel-container .tel-form h3{
+    font-size: 44px;
+  }
+  #tel-container .tel-form input, #tel-container .tel-form button {
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+  #bottom .col-xs-6 {
+    width: 100%;
+  }
+  .main-background .btn-slide {
+    width: 90%;
+  }
+  .rentcar-modal .form-group {
+    width: 90%;
+  }
+  .rentcar-modal .form-group-buttons {
+    width: 90%;
+  }
+  .rentcar-modal button[type="submit"] {
+    width: 75%;
+  }
+  .none557 {
+    display: none;
+  }
+  #services .services-wrap a {
+    width: 100%;
+  }
+  .rentcar-modal .btn-back {
+      text-align: center;
+      width: auto;
+      padding: 15px;
+    }
+}
+@media (max-width: 450px) {
+  #rentcars .slide-img img {
+      height: auto;
+  }
+  .about-content{
+  margin: 15px;
+  font-size: 14px;
+  }
+  .rentcar-modal button[type="submit"] {
+  width: 70%;
+  }
+}
+/* XS Portrait */
+@media (max-width: 420px) {
+  #bottom .col-xs-6 {
+    clear: both;
+  }
+  #tel-container .tel-form p {
+    font-size: 16px;
+  }
+  #tel-container .tel-form input, #tel-container .tel-form button {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  #main-slider .carousel h1 {
+    font-size: 30px;
+  }
+  .page-title h1 {
+    font-size: 54px;
+  }
+  #contact-page h2 {
+    font-size: 30px;
+  }
+  #contact-page .contact-info, #contact-page .form-info {
+      padding: 0 15px;
+  }
+  #contact-page .form-group {
+    text-align: center;
+  }
+  #contact-page .form-group button {
+    width: 100%;
+  }
+  #tel-container .tel-form .form-group {
+    width: 100%;
+  }
+  .main-background .btn-slide {
+    width: 100% !important;
+  }
+  .main-background h1 {
+    font-size: 38px;
+  }
+  .main-background .btn-slide {
+    font-size: 15px;
+  }
+  .main-background .item {
+    padding: 20px;
+  }
+  .content-column .content {
+    padding: 0 10px 45px !important;
+  }
+  .thanks-content p .dn-420 {
+    display: none;
+  }
+  .rentcar-modal .modal-body {
+    padding: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .main-background h1 {
+    font-size: 35px;
+  }
+
+  .main-background .btn-slide {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+}
