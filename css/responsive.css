@@ -262,6 +262,9 @@
     margin: 20px;
     font-size: 15px;
   }
+  .main-background .main-content {
+    padding-top: 140px;
+  }
 }
 @media (max-width: 557px) {
   #tel-container .tel-form h3{
