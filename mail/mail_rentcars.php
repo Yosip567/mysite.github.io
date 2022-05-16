@@ -22,7 +22,7 @@ $mail->isSMTP();
 $mail->Host = 'smtp.mail.ru';  																							
 $mail->SMTPAuth = true;
 $mail->Username = 'jetcarsbcn@mail.ru';
-$mail->Password = 'jet12345cars';
+$mail->Password = 'YuriyStopchytskyy';
 $mail->SMTPSecure = 'ssl';
 $mail->Port = 465;
 $mail->setFrom('jetcarsbcn@mail.ru');
