@@ -120,7 +120,7 @@ var input = document.querySelector("#phone");
       nationalMode: false,
       utilsScript: "../js/utils.js",
       defaultCountry: 'auto',
-      preferredCountries: ['ru', 'ua', 'es', 'by', 'kz', 'ee', 'rs', ]
+      preferredCountries: ['es', 'ua', 'ru', 'by', 'kz', 'ee', 'rs', ]
     });
 var input = document.querySelector("#phone2");
     window.intlTelInput(input, {
@@ -128,5 +128,5 @@ var input = document.querySelector("#phone2");
       nationalMode: false,
       utilsScript: "../js/utils.js",
       defaultCountry: 'auto',
-      preferredCountries: ['ru', 'ua', 'es', 'by', 'kz', 'ee', 'rs', ]
+      preferredCountries: ['es', 'ua', 'ru', 'by', 'kz', 'ee', 'rs', ]
     });
